@@ -1,8 +1,12 @@
 # Ibrahim Ahmadli
 
-Incoming MS in Computer Science at Columbia. I build products end to end — mostly AI systems, full-stack web, and mobile.
+MS in Computer Science at Columbia, ML track. Previously CS + Economics at UW–Madison — a long way of saying I like building things and I like knowing whether they worked.
 
-Previously CS + Economics at UW–Madison. Currently in New York.
+Lately that's meant an AI career platform with 300+ users, a restaurant discovery app, a leather goods storefront, and a retrieval system for thyroid cancer patients that's headed to the American College of Surgeons Clinical Congress. Recurring theme: I ship it, then spend twice as long finding out where it breaks — which is how I found out one of my own products was confidently making things up, and how a semester of regression work ended with six of eight predictors falling apart under scrutiny.
+
+Before all that: audit at EY, and a summer keeping the systems running at Azerbaijan's national space agency.
+
+New York now. Four languages, one very over-automated apartment, and an ongoing project to eat at every restaurant in the city.
 
 **Languages**
 
