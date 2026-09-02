@@ -49,7 +49,7 @@ Built the storefront from scratch rather than using Shopify — catalog, cart, c
   <img src="assets/heybe-1.png" width="70%">
 </p>
 
-### BestTrans — interactive 3D site
+### [BestTrans](https://besttranslogistic.com) — interactive 3D site
 
 Frontend build for a logistics business, structured around interactive 3D dioramas
 rather than a conventional page layout. Mostly an exercise in scene composition,
@@ -71,8 +71,7 @@ Retrieval-augmented guidance system over 160+ clinical papers, reaching 92%+ sou
 
 On aggregate score the RAG system landed level with the strongest standalone model. The gain shows up in the dimensions that matter clinically: completeness 9.5 vs 6.8 and safety 9.6 vs 8.9 against the non-RAG average — retrieval mostly stops the model from leaving things out.
 
-[Abstract — ACS Clinical Congress 2026](assets/thyroaid-acs-abstract.pdf) ·
-[Presentation slides](assets/thyroaid-symposium.pdf)
+📄 [ACS Clinical Congress abstract (PDF)](papers/thyroaid-acs-abstract.pdf) · [Presentation slides (PDF)](papers/thyroaid-symposium.pdf)
 
 ### Predicting violent crime hotspots in Chicago — ECON 695, group project
 
@@ -88,6 +87,29 @@ The maps below show homicide counts and vacant building complaints by tract; the
   <img src="assets/chicago-fixed-effects.png" width="49%">
   <img src="assets/chicago-lagged.png" width="49%">
 </p>
+
+📄 [Full paper (PDF)](papers/chicago-violent-crime.pdf) — ECON 695 coursework, included in full so the methods and results are inspectable.
+
+### Predicting restaurant revenue
+
+Compared OLS, ridge, LASSO, random forest, and gradient boosting on 137 restaurants
+across 43 variables, with a 70/30 split and 10-fold cross-validated penalty tuning in R.
+
+The interesting part is where OLS fails. On raw revenue it produced a *negative*
+out-of-sample R² — worse than just predicting the mean — because 37 heavily
+correlated predictors on 137 observations is a recipe for overfitting. Regularization
+fixed most of it; tree-based models did best. Restaurant age was the only predictor
+LASSO kept at the optimal penalty, and gradient boosting ranked it highly too, which
+suggests its effect is real but nonlinear.
+
+`R` `glmnet` `randomForest` `gbm` `ggplot2`
+
+<p align="center">
+  <img src="assets/restaurant-correlation.png" width="49%">
+  <img src="assets/restaurant-importance.png" width="49%">
+</p>
+
+📄 [Full paper (PDF)](papers/restaurant-revenue-prediction.pdf) — ECON 695 coursework. Predictors are anonymized as P1–P37 in the source data, so this is a model-comparison exercise rather than an economic interpretation.
 
 ---
 
