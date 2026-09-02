@@ -49,6 +49,8 @@ Built the storefront from scratch rather than using Shopify — catalog, cart, c
   <img src="assets/heybe-1.png" width="70%">
 </p>
 
+---
+
 ### [BestTrans](https://besttranslogistic.com) — interactive 3D site
 
 Frontend build for a logistics business, structured around interactive 3D dioramas
@@ -65,7 +67,7 @@ asset weight, and keeping the thing smooth on mid-range devices.
 
 ## Research & analysis
 
-### Clinical RAG system — Molecular Imaging & MR Lab, UW–Madison
+### Thyroaid, Clinical RAG system — Molecular Imaging & MR Lab, UW–Madison
 
 Retrieval-augmented guidance system over 160+ clinical papers, reaching 92%+ source-citation accuracy with 44% lower response latency through IVF-FLAT indexing and a retrieve-then-rerank pipeline. Co-designed the validation study benchmarking six LLMs against 177 physician-verified queries. Accepted for long oral presentation at the American College of Surgeons Clinical Congress.
 
@@ -99,8 +101,7 @@ The interesting part is where OLS fails. On raw revenue it produced a *negative*
 out-of-sample R² — worse than just predicting the mean — because 37 heavily
 correlated predictors on 137 observations is a recipe for overfitting. Regularization
 fixed most of it; tree-based models did best. Restaurant age was the only predictor
-LASSO kept at the optimal penalty, and gradient boosting ranked it highly too, which
-suggests its effect is real but nonlinear.
+LASSO kept at the optimal penalty.
 
 `R` `glmnet` `randomForest` `gbm` `ggplot2`
 
