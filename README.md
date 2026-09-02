@@ -69,6 +69,11 @@ asset weight, and keeping the thing smooth on mid-range devices.
 
 Retrieval-augmented guidance system over 160+ clinical papers, reaching 92%+ source-citation accuracy with 44% lower response latency through IVF-FLAT indexing and a retrieve-then-rerank pipeline. Co-designed the validation study benchmarking six LLMs against 177 physician-verified queries. Accepted for long oral presentation at the American College of Surgeons Clinical Congress.
 
+On aggregate score the RAG system landed level with the strongest standalone model. The gain shows up in the dimensions that matter clinically: completeness 9.5 vs 6.8 and safety 9.6 vs 8.9 against the non-RAG average — retrieval mostly stops the model from leaving things out.
+
+[Abstract — ACS Clinical Congress 2026](assets/thyroaid-acs-abstract.pdf) ·
+[Presentation slides](assets/thyroaid-symposium.pdf)
+
 ### Predicting violent crime hotspots in Chicago — ECON 695, group project
 
 Built a 789-tract panel from 8.5M Chicago crime incidents and 311 service requests spanning 2018–2025. Pooled OLS explained 79% of cross-sectional variation, but adding tract-level fixed effects collapsed six of eight disorder indicators — graffiti, infrastructure, abandonment, and sanitation all lost significance once each neighborhood was compared only to itself. Only property/street crime and vice/public disorder survived, and both held under a one-year lag. Replicated on 1,212 Los Angeles tracts as an external validity check.
