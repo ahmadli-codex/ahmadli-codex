@@ -2,7 +2,7 @@
 
 MS in Computer Science at Columbia, ML track. Previously CS + Economics at UW–Madison — a long way of saying I like building things and I like knowing whether they worked.
 
-Lately that's meant an AI career platform with 300+ users, a restaurant discovery app, a leather goods storefront, and a retrieval system for thyroid cancer patients that's headed to the American College of Surgeons Clinical Congress. Recurring theme: I ship it, then spend twice as long finding out where it breaks — which is how I found out one of my own products was confidently making things up, and how a semester of regression work ended with six of eight predictors falling apart under scrutiny.
+Lately that's meant an AI career platform with 300+ signups, a restaurant discovery app, a leather goods storefront, and a retrieval system built for post-surgical thyroid cancer patient communication, with results accepted for oral presentation at the American College of Surgeons Clinical Congress. Recurring theme: I ship it, then spend twice as long finding out where it breaks — which is how I found out one of my own products was confidently making things up, and how a semester of regression work ended with six of eight predictors falling apart under scrutiny.
 
 Before all that: audit at EY, and a summer keeping the systems running at Azerbaijan's national space agency.
 
@@ -13,10 +13,8 @@ New York now. Four languages, one very over-automated apartment, and an ongoing 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
 **Frontend**
 
@@ -117,7 +115,7 @@ asset weight, and keeping the thing smooth on mid-range devices.
 
 ### Thyroaid, Clinical RAG system — Molecular Imaging & MR Lab, UW–Madison
 
-Retrieval-augmented guidance system over 160+ clinical papers, reaching 92%+ source-citation accuracy with 44% lower response latency through IVF-FLAT indexing and a retrieve-then-rerank pipeline. Co-designed the validation study benchmarking six LLMs against 177 physician-verified queries. Accepted for long oral presentation at the American College of Surgeons Clinical Congress.
+Retrieval-augmented guidance system over 160+ clinical papers, reaching 92%+ retrieval accuracy with 44% lower response latency through IVF-FLAT indexing and a retrieve-then-rerank pipeline. Co-designed the validation study benchmarking six LLMs against 177 physician-verified queries. Accepted for long oral presentation at the American College of Surgeons Clinical Congress.
 
 On aggregate score the RAG system landed level with the strongest standalone model. The gain shows up in the dimensions that matter clinically: completeness 9.5 vs 6.8 and safety 9.6 vs 8.9 against the non-RAG average — retrieval mostly stops the model from leaving things out.
 
@@ -170,10 +168,10 @@ Most of what I build is in private repos — CareerLab and Revio have real users
 
 ## Stack
 
-**Languages** Python · TypeScript · Java · SQL · R · C
+**Languages** Python · TypeScript · SQL · R
 **Frontend** React · React Native · Next.js · Tailwind
 **Backend** Node · Express · FastAPI · PostgreSQL · Supabase · Drizzle · Firebase
-**AI/ML** LangChain · LangGraph · PyTorch · Pinecone · Milvus · RAG architectures
+**AI/ML** LangChain · LangGraph · Pinecone · Milvus · RAG architectures
 **Infra** Docker · Vercel · Render · Git · Linux
 
 ---
